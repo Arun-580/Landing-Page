@@ -1,6 +1,9 @@
 /* defining variables */
 /* mixin style code */
 /* mystyle */
+.body {
+  background-color: #f2f3f7; }
+
 .header-section {
   position: relative; }
 
@@ -340,7 +343,7 @@
   .banner-caption {
     text-align: center;
     position: absolute;
-    top: 22%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -48%);
     width: 100%; }
