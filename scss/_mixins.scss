@@ -1,0 +1,11 @@
+/* mixin style code */
+
+	@mixin nav-hover{
+		background-color:transparent;
+		color:#7a7c7d !important;
+	}
+	
+	@mixin myfont-style{
+		font-family: 'Rubik';
+		font-weight:600;
+	}

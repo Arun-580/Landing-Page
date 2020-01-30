@@ -1,0 +1,278 @@
+@media screen and (min-width: 1026px) {
+  .cont {
+    width: 1026px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  #ncont {
+    width: 968px;
+  }
+}
+
+
+@media screen and (min-width: 1026px) {
+  .ocont {
+    width: 998px;
+  }
+}
+
+
+@media (max-width: 990px) {
+.contact{ display:none;}
+
+}
+
+
+@media screen and (max-width: 900px){
+
+.teaboxx{
+	 min-height: 231px;
+    position: relative;
+    padding: 0;
+    background-color:#d6dfe6;
+}
+
+.maintab{
+		display:block;
+		
+	}
+	
+	.main{
+		display:none;
+		
+	}
+	
+	.banner-caption{
+	text-align:center;
+	position:absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -48%);
+	width:100%;
+	
+}
+
+.rowb{
+		margin-top:150px !important;
+		
+	}
+	
+	.brewrow { margin-top:73px !important;}
+	
+	.srowb{
+		margin-top:132px !important;
+		
+	}
+	
+	.bagimg{
+	position: absolute;
+    top: -16%;
+    width: 90%;
+    left: 14%;
+}
+
+.footcolfirst { text-align:center;}
+
+.owlsym{ display:block !important;}
+
+
+}
+
+@media (max-width: 768px) {
+
+.brewback .background-image { display: none;}
+
+
+
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+	background-color:transparent;
+	margin:11px 0px;
+	color:black;
+	font-family: 'Rubik';
+	font-size:17px;
+
+  }
+}
+
+@media (max-width:767px){
+	.cdesk{display:none;}
+	.bshop{display:none;}
+}
+
+@media (min-width: 767px) {
+
+.cmob { display: none;}
+.bshopm { display: none;}
+
+}
+
+@media (max-width: 767px) {
+.brewbackk{
+	
+    display:block;
+    z-index: 99;
+    position: relative;
+	height:581px;
+	
+}
+	
+	.teabagc{ display:none;}
+
+}
+
+@media only screen and (max-width: 600px){
+	.filter{
+		text-align:center;
+		background-color:#d6dfe6;
+		margin-bottom:-11px;
+		padding:121px 0px 0px 0px;
+	}
+	
+	.filtercol{
+		padding:0px 0px 0px 0px;
+	}
+	
+	.footcolfirst { text-align:left;}
+
+.ankle{
+		text-align:center;
+	}
+	
+	.bagimg{
+		position:absolute;
+		top:0%;
+		display:none;
+	}
+	
+	.infomargin{
+		margin-top:41px !important;
+	}
+	
+		.cart {	float:right;
+		padding:17px;
+		display:block;
+	}
+		
+	.flist{ padding-left:0px !important;}
+	
+		.coffeec{
+		
+		z-index:99999;
+		text-align:center;
+		width:100%;
+		margin-top:-18%;
+	}
+	
+	.brewoutt{
+		display:block;
+		text-align:center;
+		margin-top:-147%;
+		padding:0px 0px 0px 0px;
+	}
+		.brewout{
+		display:none;
+		text-align:center;
+		margin-top:-224%;
+		padding:0px 0px 0px 0px;
+	}
+	.brewou{
+		text-align:center;
+		padding:38px 0px;
+		
+	}
+	
+	.lister{
+		display:block;
+		padding:23px 15px 0px 10px;
+		font-size:17px;
+		background-color:#eaeaea;
+		height:194px;
+		margin:-16px;
+		overflow:hidden;
+	}
+	
+	.liste{ display:none;}
+	
+	.shopou{
+		text-align:center;
+	}
+	
+	#glyf{
+		display:none;
+	}
+	.navbar-brand{
+		display:none;
+		
+	}
+	
+	.maintab{
+		display:none;
+		
+	}
+	
+	.banner-caption{
+	text-align:center;
+	position:absolute;
+	top: 22%;
+	left: 50%;
+	transform: translate(-50%, -48%);
+	width:100%;
+	
+}
+.headrow{
+		margin-top:-35px;
+		
+	}
+	.rowb{
+		margin-top:-35px !important;
+		
+	}
+	
+	.desktop-hide
+{
+	display:block;
+}
+	
+	
+}
+
+@media (max-width: 568px) {
+	.mainmob{
+		display:block;
+		
+	}
+	
+}
+
+@media (max-width:500px){
+	.scoffeeimg{ display:none;}
+
+}
+
+
+
+@media (max-width: 400px) {
+.brewbackk{
+	
+    display:block;
+    z-index: 99;
+    position: relative;
+	height:426px;
+	}
+
+}
+
+
+@media (max-width: 318px) {
+
+.footer-bottom { height:411px;}
+
+} 

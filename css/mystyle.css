@@ -1,0 +1,372 @@
+/* defining variables */
+/* mixin style code */
+/* mystyle */
+.header-section {
+  position: relative; }
+
+#nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1; }
+
+.liste .navbar-nav.navbar-center a:hover {
+  background-color: transparent;
+  color: #7a7c7d !important; }
+.liste .navbar-nav.navbar-right a:hover {
+  background-color: transparent;
+  color: #7a7c7d !important; }
+
+.cartt {
+  padding: 25px 15px; }
+
+.anyhead {
+  margin-top: -1%; }
+
+.mainmob {
+  display: none; }
+
+.maintab {
+  display: none; }
+
+.main {
+  width: 100%; }
+
+.banner-caption {
+  text-align: center;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -48%); }
+
+.texth {
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.3; }
+
+.caph {
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-size: 17px; }
+
+.top-buffer {
+  margin-top: 108px; }
+
+.shoptext, .biotext {
+  font-size: 24px;
+  font-family: "Rubik";
+  line-height: 1.4;
+  padding: 0px 12px; }
+
+.biotext {
+  font-size: 11px; }
+
+.lister {
+  display: none; }
+
+.brewou, .brewoutt {
+  padding: 58px 32px; }
+
+.brewout {
+  padding: 86px 32px; }
+
+.brewoutt {
+  display: none; }
+
+.heady {
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.6;
+  padding: 12px; }
+
+.btn {
+  font-family: 'Rubik';
+  font-weight: 600;
+  border: 2px solid #3159f5;
+  border-radius: 5px;
+  background-color: white;
+  color: #3159f5;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 11px; }
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue; }
+  .info :hover {
+    background: #2196F3;
+    color: white; }
+
+.scoffeec, .coffeec {
+  padding: 0px 0px 0px 0px; }
+
+.coffeec {
+  width: 49%; }
+
+.cofou {
+  background-color: #fff0db;
+  padding: 12px 0px; }
+
+.coffeeimg {
+  position: relative;
+  bottom: -86px;
+  margin: auto;
+  left: 16px; }
+
+.teabagc {
+  background-color: #d6dfe6; }
+
+.teaboxx {
+  min-height: 305px;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  background-color: #d6dfe6; }
+
+.bagimg {
+  position: absolute;
+  top: -16%;
+  width: 90%;
+  left: 13%;
+  /* margin: auto; */ }
+
+.bigbagg {
+  width: 100%;
+  margin-top: 37px;
+  position: absolute; }
+
+.teabagd {
+  padding: 0px 0px 0px 0px; }
+
+.desktop-hide, .brewback, .brewbackk, .owlsym, .cart {
+  display: none; }
+
+.headlt, .headl {
+  font-size: 23px;
+  font-family: 'Rubik';
+  line-height: 1.6;
+  text-align: center; }
+
+.headl {
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-size: 26px; }
+
+.footcol {
+  width: 9%; }
+
+.footer-bottom {
+  width: 100%;
+  background-color: #f2f3f7;
+  color: black;
+  padding: 49px 0px;
+  /*height:357px;*/ }
+
+.flist {
+  font-family: "Rubik";
+  line-height: 2.0;
+  color: #7f7e8a;
+  font-size: 16px; }
+
+.newbut {
+  margin-top: 4%; }
+
+.linkl {
+  font-family: "Rubik";
+  color: #3159f5;
+  font-size: 17px; }
+
+@media screen and (min-width: 1026px) {
+  .cont {
+    width: 1026px; } }
+@media screen and (min-width: 1366px) {
+  #ncont {
+    width: 968px; } }
+@media screen and (min-width: 1026px) {
+  .ocont {
+    width: 998px; } }
+@media (max-width: 990px) {
+  .contact {
+    display: none; } }
+@media screen and (max-width: 900px) {
+  .teaboxx {
+    min-height: 231px;
+    position: relative;
+    padding: 0;
+    background-color: #d6dfe6; }
+
+  .maintab {
+    display: block; }
+
+  .main {
+    display: none; }
+
+  .banner-caption {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -48%);
+    width: 100%; }
+
+  .rowb {
+    margin-top: 150px !important; }
+
+  .brewrow {
+    margin-top: 73px !important; }
+
+  .srowb {
+    margin-top: 132px !important; }
+
+  .bagimg {
+    position: absolute;
+    top: -16%;
+    width: 90%;
+    left: 14%; }
+
+  .footcolfirst {
+    text-align: center; }
+
+  .owlsym {
+    display: block !important; } }
+@media (max-width: 768px) {
+  .brewback .background-image {
+    display: none; } }
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color: transparent;
+    margin: 11px 0px;
+    color: black;
+    font-family: "Rubik";
+    font-size: 17px; } }
+@media (max-width: 767px) {
+  .cdesk, .bshop {
+    display: none; } }
+@media (min-width: 767px) {
+  .cmob, .bshopm {
+    display: none; } }
+@media (max-width: 767px) {
+  .brewbackk {
+    display: block;
+    z-index: 99;
+    position: relative;
+    height: 581px; }
+
+  .teabagc {
+    display: none; } }
+@media only screen and (max-width: 600px) {
+  .filter {
+    text-align: center;
+    background-color: #d6dfe6;
+    margin-bottom: -11px;
+    padding: 121px 0px 0px 0px; }
+
+  .filtercol {
+    padding: 0px 0px 0px 0px; }
+
+  .footcolfirst {
+    text-align: left; }
+
+  .ankle {
+    text-align: center; }
+
+  .bagimg {
+    position: absolute;
+    top: 0%;
+    display: none; }
+
+  .infomargin {
+    margin-top: 41px !important; }
+
+  .cart {
+    float: right;
+    padding: 17px;
+    display: block; }
+
+  .flist {
+    padding-left: 0px !important; }
+
+  .coffeec {
+    z-index: 99999;
+    text-align: center;
+    width: 100%;
+    margin-top: -18%; }
+
+  .brewoutt {
+    display: block;
+    text-align: center;
+    margin-top: -147%;
+    padding: 0px 0px 0px 0px; }
+
+  .brewout {
+    display: none;
+    text-align: center;
+    margin-top: -224%;
+    padding: 0px 0px 0px 0px; }
+
+  .brewou, .brewoutt {
+    text-align: center;
+    padding: 38px 0px; }
+
+  .lister {
+    display: block;
+    padding: 23px 15px 0px 10px;
+    font-size: 17px;
+    background-color: #eaeaea;
+    height: 194px;
+    margin: -16px;
+    overflow: hidden; }
+
+  .liste {
+    display: none; }
+
+  .shopou {
+    text-align: center; }
+
+  #glyf {
+    display: none; }
+
+  .navbar-brand {
+    display: none; }
+
+  .maintab {
+    display: none; }
+
+  .banner-caption {
+    text-align: center;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -48%);
+    width: 100%; }
+
+  .headrow {
+    margin-top: -35px; }
+
+  .rowb {
+    margin-top: -35px !important; }
+
+  .desktop-hide, .brewback, .brewbackk, .owlsym, .cart {
+    display: block; } }
+@media (max-width: 568px) {
+  .mainmob {
+    display: block; } }
+@media (max-width: 500px) {
+  .scoffeeimg {
+    display: none; } }
+@media (max-width: 400px) {
+  .brewbackk {
+    display: block;
+    z-index: 99;
+    position: relative;
+    height: 426px; } }
+@media (max-width: 318px) {
+  .footer-bottom {
+    height: 411px; } }
+
+/*# sourceMappingURL=mystyle.css.map */
