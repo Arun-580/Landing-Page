@@ -1,6 +1,9 @@
 /* defining variables */
 /* mixin style code */
 /* mystyle */
+.body {
+  background-color: #f2f3f7; }
+
 .header-section {
   position: relative; }
 
@@ -177,9 +180,6 @@
   font-family: "Rubik";
   color: #3159f5;
   font-size: 17px; }
-
-.infomargin {
-  background-color: azure; }
 
 @media screen and (min-width: 1026px) {
   .cont {
